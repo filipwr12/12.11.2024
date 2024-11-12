@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="star">
+      <img src="images/icon-star.svg" alt="">
+    </div>
+    <div class="des">
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+    <div class="buttons">
+      <button onclick="setRating(1)">1</button>
+      <button onclick="setRating(2)">2</button>
+      <button onclick="setRating(3)">3</button>
+      <button onclick="setRating(4)">4</button>
+      <button onclick="setRating(5)">5</button>
+    </div>
+    <div class="button-submit">
+      <button onclick="usuwanie()">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

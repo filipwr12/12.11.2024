@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+.star img {
+    background-color: hsl(216, 12%, 8%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.star {
+    margin-bottom: 15px;
+}
+
+.des h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.des p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buttons button {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.buttons button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.buttons button:focus {
+    background-color: #fff;
+    color: hsl(216, 12%, 8%);
+}
+
+
+.button-submit button {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.button-submit button:hover {
+    background-color: #fff;
+}
